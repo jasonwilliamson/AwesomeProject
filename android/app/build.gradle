@@ -112,7 +112,7 @@ dependencies {
     implementation("com.facebook.react:react-android")
     implementation files('libs/acssmcio-0.6.1.aar')
     implementation files('libs/smartcardio-0.1.6.aar')
-    implementation 'com.github.acslibrary:acsbt:1.1.0'
+    //implementation 'com.github.acslibrary:acsbt:1.1.0' ...
     //implementation 'com.acs:smartcardio:1.0.0'
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
